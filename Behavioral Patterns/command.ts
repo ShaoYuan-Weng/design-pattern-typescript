@@ -1,5 +1,5 @@
 /*
-Command pattern makes a request as an object so that we can log, queue, undo requests
+Command pattern turns requests into objects so that we can do specific operations to the requests (store, queue, undo ...)
 */
 
 interface Operation {
