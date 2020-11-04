@@ -16,7 +16,7 @@ interface DatabaseRequest {
 }
 
 class DatabaseRequestImpl implements DatabaseRequest {
-    getFileFromDB(id) {
+    getFileFromDB(id: number) {
         return {
             name: 'file'
         };
@@ -53,7 +53,7 @@ interface FileRequestFacade {
 }
 
 class FileRequestFacadeImpl implements FileRequestFacade {
-    getFile(id, dataType) {
+    getFile(id: number, dataType: string) {
         const requestedFile = new DatabaseRequestImpl().getFileFromDB(id);
         switch (dataType) {
             case 'csv': {

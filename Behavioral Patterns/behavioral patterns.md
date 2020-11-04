@@ -10,3 +10,6 @@ selects the algorithms on runtime
 
 - #### state
 allows object to change behavior when then internal state changes 
+
+- #### chain of responsibility
+creates a series of processing objects to get the chance to handle the incoming request
