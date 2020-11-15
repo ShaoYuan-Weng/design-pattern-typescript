@@ -10,3 +10,6 @@ hides complex logic when creating the object
 
 - #### singleton
 only allows client to create one instance of the class
+
+- #### prototype
+creates new instances using existing instances
