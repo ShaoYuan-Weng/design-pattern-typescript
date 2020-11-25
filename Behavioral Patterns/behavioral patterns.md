@@ -13,3 +13,6 @@ allows object to change behavior when then internal state changes
 
 - #### [chain of responsibility](chain_of_responsibility.ts)
 creates a series of processing objects to get the chance to handle the incoming request
+
+- #### [mediator](mediator.ts)
+centralizes the communication between objects
